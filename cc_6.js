@@ -10,7 +10,7 @@ class Employee {
 
     describe() {
         return `${this.name} works in ${this.department}`;
-    }
+    }; 
 
 } 
 
