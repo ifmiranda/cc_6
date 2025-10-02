@@ -50,6 +50,14 @@ class Company {
         }
     }
 } 
+// Step 4 & 6: // Combined both to make it easier  
+
+const emp1 = new Employee("Isabella Miranda", "Data Analytics"); 
+const emp2 = new Employee("Andriana Kilias", "Supply Chain"); 
+const mgr1 = new Manager( "Jacob Mamrak", "Project Management", 9); 
+const mgr2 = new Manager("Benito Martinez", "Engineering", 10); 
+
+
 
 
 
