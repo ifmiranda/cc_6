@@ -22,6 +22,9 @@ class Manager extends Employee {
     }
 // Overrides describe() with manager-specific info 
 
+describe() {
+    return `${this.name} manages ${this.teamSize} people in ${this.department}`; 
+}
 }
 
 
