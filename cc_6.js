@@ -57,6 +57,15 @@ const emp2 = new Employee("Andriana Kilias", "Supply Chain");
 const mgr1 = new Manager( "Jacob Mamrak", "Project Management", 9); 
 const mgr2 = new Manager("Benito Martinez", "Engineering", 10); 
 
+// Comapny setup  
+const company = new Company("Goldens 4Life"); 
+company.addEmployee(emp1);
+company.addEmployee(emp2);
+company.addEmployee(mgr1); 
+company.addEmployee(mgr2); 
+
+company.listEmployees(); 
+
 
 
 
