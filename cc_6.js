@@ -25,7 +25,37 @@ class Manager extends Employee {
 describe() {
     return `${this.name} manages ${this.teamSize} people in ${this.department}`; 
 }
-}
+
+isExecutiveLevel() { 
+    return this.teamSize >=10; 
+    } 
+} 
+
+// Step 5: Company class to hold employees 
+
+class Company { 
+    constructor(name) { 
+        this.name = name; 
+        this.employees = []; 
+    }
+
+    addEmployee(employee) {
+        this.employees.push(employee); 
+    }
+
+    listEmployees () {
+        console.log(`\n- ${this.name} Employee Roster -`);
+        for (const emp of this.employees) {
+            console.log(emp.describe());
+        }
+    }
+} 
+
+
+
+
+
+
 
 
 
