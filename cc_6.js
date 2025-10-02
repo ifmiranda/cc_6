@@ -58,7 +58,7 @@ const mgr1 = new Manager( "Jacob Mamrak", "Project Management", 9);
 const mgr2 = new Manager("Benito Martinez", "Engineering", 10); 
 
 // Comapny setup  
-const company = new Company("Goldens 4Life"); 
+const company = new Company("Bad Bunny Merch Crew"); 
 company.addEmployee(emp1);
 company.addEmployee(emp2);
 company.addEmployee(mgr1); 
