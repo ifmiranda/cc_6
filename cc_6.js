@@ -13,6 +13,17 @@ class Employee {
     }; 
 
 } 
+// Step 3: Subclass Manager 
+
+class Manager extends Employee { 
+    constructor(name, department, teamSize) {
+        super(name, department); 
+        this.teamSize = teamSize; 
+    }
+// Overrides describe() with manager-specific info 
+
+}
+
 
 
 
